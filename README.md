@@ -1,22 +1,31 @@
-Digital Bookshelf 
+# Library Manager 📚
 
-    This is a simple digital book manager to store books and info tied to each book (title, author, page count, read status). 
+A simple C++ console application to manage a virtual library. It allows users to add, remove, edit, view, and mark books as read or unread.
 
-    Includes several methods that allow for editing of digital bookshelf including add, remove and edit book info. 
+## 🚀 Features
 
-    Includes function to visualize books in ordered manner (by read/not read, page count, author alphabetical order, title alphabetical order). 
+- Add a new book (title, author, page number, read status)
+- Remove a book
+- Edit book details
+- View full list of books
+- Mark books as "read" or "unread"
 
-Installation and use
+## 🛠 How to Run
 
+1. Compile the code using a C++ compiler:
 
+    g++ lib-mngr.cpp -o library
 
-Examples of use
+2. Run the program: 
 
-    To manange large collections of books and be able to visualize and sort instantly. 
+    ./library
 
+## 📚 Project Purpose
 
+This project was created as a programming exercise to practice object-oriented programming (OOP) concepts and data management using C++.
 
+## 🌱 Future Improvements
 
-my checklist to do 
-    modify code and add pBook as a Book method instead of an external function 
-
+- Save/load the library to/from a file
+- Search books by author or read status
+- Add a simple graphical interface
